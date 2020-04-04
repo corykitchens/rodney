@@ -1,4 +1,5 @@
 # Rodney
+[![Build Status](https://travis-ci.org/corykitchens/rodney.svg?branch=master)](https://travis-ci.org/corykitchens/rodney)
 
 ## Overview
 The purpose of Rodney is to demonstrate an example of a GraphQL service interfacing with a Ruby on Rails backend.
