@@ -1,6 +1,10 @@
 # Rodney
 [![Build Status](https://travis-ci.org/corykitchens/rodney.svg?branch=master)](https://travis-ci.org/corykitchens/rodney)
 
+
+[Live Demo](https://rodneydobbs.herokuapp.com/graphiql)
+
+
 ## Overview
 The purpose of Rodney is to demonstrate an example of a GraphQL service interfacing with a Ruby on Rails backend.
 
@@ -23,9 +27,14 @@ TODO
 TODO
 ```
 {
-    tracks {
-        artist(name: "King Gizzard and the Lizard Wizard")
-        album(title: "Polygondwanaland")
+    artists {
+        name
+        albums {
+            title
+            songs {
+                title
+            }
+        }
     }
 }
 ```
