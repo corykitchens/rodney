@@ -26,9 +26,11 @@ gem 'bootsnap', '>= 1.4.2', require: false
 # gem 'rack-cors'
 
 # Use GraphQL
-gem 'graphql-client'
+gem 'graphql'
 # Use GraphiQL demonstration purposes via GUI
 gem "graphiql-rails"
+# Version lock sprockets to 3
+gem 'sprockets', '~> 3'
 # Use Travis for CI
 gem 'travis'
 
