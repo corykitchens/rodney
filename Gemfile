@@ -33,6 +33,8 @@ gem "graphiql-rails"
 gem 'sprockets', '~> 3'
 # Use Travis for CI
 gem 'travis'
+  # Use faker for seeding the database with fake data
+gem 'faker'
 
 group :development, :test do
   # Use rubocop's rails integration for linting
@@ -42,9 +44,6 @@ group :development, :test do
 end
 
 group :development do
-  # Use faker for seeding the database with fake data
-  gem 'faker'
-
   gem 'listen', '>= 3.0.5', '< 3.2'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
